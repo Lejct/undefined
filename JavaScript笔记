@@ -648,3 +648,29 @@ var x = document.cookie;
 删除 cookie 非常简单。您只需要设置 expires 参数为以前的时间即可，如下所示，设置为 Thu, 01 Jan 1970 00:00:00 GMT:
 document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
 PS：注意，当您删除时不必指定 cookie 的值。
+
+--常用字符串添加样式
+
+字体变大:String.big()
+
+字体缩小:String.small()
+
+字体加粗:String.bold()
+
+斜体:String.italics()
+
+固定定位:String.fixed()
+
+加删除线:String.strike()
+
+字体颜色:String.fontcolor(color) 
+
+字体大小:String.fontsize(figure)
+
+下标:String.sub()
+
+上标:String.sup()
+
+链接:String.link()
+
+闪动文本:String.blink() 
